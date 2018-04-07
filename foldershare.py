@@ -54,6 +54,12 @@ class ShareHandler(BaseHTTPRequestHandler):
     <p>or:</p>
     <pre>
     wget http://{host}:{port}/files.tar.gz -O - | tar xz</pre>
+    <p>
+        Source code:
+        <a href="https://github.com/xHasKx/foldershare" target="_blank">
+            github.com/xHasKx/foldershare
+        </href>
+    </p>
 </body>
 </html>
                 '''.strip().format(host=host, port=port).encode('utf-8')

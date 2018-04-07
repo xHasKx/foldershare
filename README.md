@@ -14,6 +14,10 @@ or:
 
     wget http://<source-machine>:8080/files.tar.gz -O - | tar xz
 
+## Source code
+
+The source code is available at github: https://github.com/xHasKx/foldershare
+
 ## Pros
 
 * Preserving files access mode and modification time
