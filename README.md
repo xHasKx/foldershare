@@ -17,9 +17,9 @@ or:
 ## Pros
 
 * Preserving files access mode and modification time
-* You can specify any port and address to start HTTP server
-* You need only `pyhton3` on source machine
+* You need only `pyhton3` on source machine, and **no additional modules**
 * No need for `rsync` on target machine - it can be a simple BusyBox-like hardware
+* You can specify any port and address to start HTTP server
 
 ## Cons
 
